@@ -3,7 +3,7 @@
 
 int main(){
    bool onigiri;
-   onigiri = true;
+   onigiri = false;
 
    printf("霊夢は、コンビニに行きました。\n");
    printf("霊夢は、おにぎりを探しました。\n");
