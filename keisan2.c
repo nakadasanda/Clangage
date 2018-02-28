@@ -11,10 +11,10 @@ int main(void){
 	kakezan = a * b;
 	jouzan = pow(d,e); 
 	ruuto = sqrt(d); //ruuto5
-	printf("%d + %d = %d \n",a,b,sum);
-	printf("%d  %d = %d\n",a,c,amari );
-	printf("%d * %d = %d\n",a,b,kakezan);
-	printf("paw(%f ,%f) = %f \n",d,e,jouzan);
-	printf("sqrt( %f ) = %f \n ",d,ruuto);
+	printf("%d + %d = %d \n",a,b,sum);		//5 + 1 の結果 
+	printf("%d  %d = %d\n",a,c,amari ); 		//5　/ 3の余り
+	printf("%d * %d = %d\n",a,b,kakezan);		//5 × 1の結果
+ 	printf("paw(%f ,%f) = %f \n",d,e,jouzan);	//5の3乗の結果
+	printf("sqrt( %f ) = %f \n ",d,ruuto);		//√5の結果
 	return 0;
 }
