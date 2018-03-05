@@ -1,31 +1,34 @@
 #include <stdio.h>
 
 /*
- *  find the averege value
+ *   find the averege value
  *
- * name[subject]
+ *test[id][subject]
+ *
+ *  id = 0 nakada
+ *  id = 1 yamada
+ *  id = 2 satou
  *  
  *  subject = 0 science
  *  subject = 1 english
  *  subject = 2 math
- *  
- *  
+ *  subject = 3 all
+ * 
  */
 
 int main(){
-   int sum[4],avg[4],nakada[3],
-       yamada[3],satou[3];
+   int sum[4],avg[4],test[3][3];
 
-       //初期化中
-       nakada[0] = 10; nakada[1] = 8 ; nakada[2] = 7;
-       yamada[0] = 7 ; yamada[1] = 9 ; yamada[2] = 4;
-       satou[0]  = 6 ; satou[1]  = 10; satou[2]  = 3;
+       //init
+       test[0][0] = 10; test[0][1] = 8 ; test[0][2] = 7;
+       test[1][0] = 7 ; test[1][1] = 9 ; test[1][2] = 4;
+       test[2][0] = 6 ; test[2][1] = 10; test[2][2] = 3;
 
 
-       //sum
-       sum[1] = nakada[0]  + yamada[0] + satou[0] ;
-       sum[2] = nakada[1]  + yamada[1] + satou[1] ;
-       sum[3] = nakada[2]  + yamada[2] + satou[2] ;
+       //ADD
+       sum[1] = test[0][0]  + test[1][0] + test[2][0] ;
+       sum[2] = test[0][1]  + test[1][1] + test[2][1] ;
+       sum[3] = test[0][2]  + test[1][2] + test[2][2] ;
 
        sum[0] = sum[1] + sum[2] +sum[3];
 

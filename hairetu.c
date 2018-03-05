@@ -3,7 +3,7 @@
 int main(){
    int sum,sum_math,sum_sience,sum_english,
        avg,avg_math,avg_sience,avg_english,
-       nakadasan_math,nakadasan_sience,nakadsan_english,
+       nakadasan_math,nakadasan_sience,nakadasan_english,
        yamadasan_math,yamadasan_sience,yamadasan_english,
        satousan_math,satousan_sience,satousan_english;
 
